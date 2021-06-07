@@ -4,21 +4,21 @@ In this project we'll create a program that can combine and deconstruct colors a
 
 #### Color combining
 
-| inputs | output |
-| --- | --- |
-| red + blue | purple |
-| red + yellow | orange |
-| blue + yellow | green |
+| inputs        | output  |
+| ------------- | ------- |
+| red + blue    | purple  |
+| red + yellow  | orange  |
+| blue + yellow | green   |
 | anything else | "error" |
 
 #### Color deconstructing
 
-| input | outputs |
-| --- | --- |
-| purple | red + blue |
-| orange | red + yellow |
-| green | blue + yellow |
-| anything else | error |
+| input         | outputs       |
+| ------------- | ------------- |
+| purple        | red + blue    |
+| orange        | red + yellow  |
+| green         | blue + yellow |
+| anything else | error         |
 
 We won't worry about any colors that are neither primary nor secondary colors.
 
